@@ -42,11 +42,11 @@ class _UiSettings(BaseSettings):
     )
 
     title: str = "Vertriebsprotokoll"
-    logo: Optional[str] = https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Logo_Bechtle.svg/640px-Logo_Bechtle.svg.png
-    chat_logo: Optional[str] = https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Logo_Bechtle.svg/640px-Logo_Bechtle.svg.png
+    logo: Optional[str] = "Logo_Bechtle.svg.png"
+    chat_logo: Optional[str] = "/Logo_Bechtle.svg.png"
     chat_title: str = "Gebe deine Stichwörter ein"
     chat_description: str = "test"
-    favicon: str = https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Bechtle_Logo.svg/1043px-Bechtle_Logo.svg.png
+    favicon: str = "/Logo_Bechtle.svg.png"
     show_share_button: bool = False
     show_chat_history_button: bool = True
 
