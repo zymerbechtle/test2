@@ -41,13 +41,13 @@ class _UiSettings(BaseSettings):
         env_ignore_empty=True
     )
 
-    title: str = "Contoso"
-    logo: Optional[str] = None
-    chat_logo: Optional[str] = None
-    chat_title: str = "Start chatting"
-    chat_description: str = "This chatbot is configured to answer your questions"
-    favicon: str = "/favicon.ico"
-    show_share_button: bool = True
+    title: str = "Vertriebsprotokoll"
+    logo: Optional[str] = "Logo_Bechtle.svg.png"
+    chat_logo: Optional[str] = "/Logo_Bechtle.svg.png"
+    chat_title: str = "Gebe deine Stichwörter ein"
+    chat_description: str = "test"
+    favicon: str = "/Logo_Bechtle.svg.png"
+    show_share_button: bool = False
     show_chat_history_button: bool = True
 
 
